@@ -7,14 +7,26 @@
         display: flex;
         justify-content: space-between;
     }
-    &__item {
-        position: relative;
+    &__item {   
+        position: relative; 
+        width: 270px;    
+        height: 335px;
         img {
-            width: 277.5px;
+            position: relative;
+            width: 270px;
             height: 100%;
             object-fit: cover;
             cursor: pointer;
+            &:hover {
+                content: url('../icons/search.png');
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                background-color: $main_color;
+                border-radius: 100%;
+            }
         }
+
     }
     &__subtitle {
         position: absolute;
@@ -34,7 +46,7 @@
         text-transform: uppercase;
         color: #fff;
         bottom: 60px;
-        left: -30px;
+        left: -10px;
         transform: rotate(-90deg);
     }
 }
