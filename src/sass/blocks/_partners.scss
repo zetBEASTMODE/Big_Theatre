@@ -1,0 +1,17 @@
+.partners {
+    background-color: $second_color;
+    padding-top: 150px;
+    min-height: 400px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-top: 50px;
+        img {
+            width: 200px;
+            height: 100px;
+            object-fit: fill;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.donate {
+    min-height: 350px;
+    background-color: $second_color;
+    padding-top: 100px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}

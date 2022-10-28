@@ -21,9 +21,13 @@
                 content: url('../icons/search.png');
                 width: 100px;
                 height: 100px;
-                object-fit: cover;
                 background-color: $main_color;
                 border-radius: 100%;
+                top: 120px;
+                background-size: fill;
+                left: 50%;
+                transform: translateX(-50%);
+
             }
         }
 

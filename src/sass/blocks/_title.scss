@@ -1,4 +1,5 @@
 .title {
+    font-family: 'Open Sans Condensed Light';
     font-weight: 400;
     font-size: 48px;
     line-height: 65px;
@@ -6,6 +7,7 @@
     text-transform: uppercase;
     color: #fff;
     span {
+        font-family: 'Open Sans Condensed Light';
         color: $main_color;
     }
 }

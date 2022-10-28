@@ -1,0 +1,32 @@
+.best {
+    padding-top: 100px;
+    min-height: 550px;
+    background-color: $second_color;
+    &__wrapper {
+        background: url('../img/best.jpg') center (center / cover) no-repeat;
+        width: 1000px;
+        height: 550px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__numbers {
+        padding-top: 126px;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 98px;
+        text-transform: uppercase;
+        color: $main_color;
+    }
+    &__item {
+        padding-top: 171px;
+
+    }
+    &__text {
+        margin-top: 25px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        color: #fff;
+    }
+}
